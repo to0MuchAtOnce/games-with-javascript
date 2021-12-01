@@ -1,0 +1,22 @@
+body {
+  background: #eee;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  background: #cdcdcd;
+}
+
+.grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: green;
+  font-size: 60px;
+  font-weight: bold;
+}
