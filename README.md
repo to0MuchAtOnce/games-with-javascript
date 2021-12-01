@@ -1,1 +1,1 @@
-# games with javascript
+# Games with javaScript
