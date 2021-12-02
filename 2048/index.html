@@ -6,15 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="#">
-  <link rel="stylesheet" href="/style.css">
-  <script src="/app.js" defer></script>
+  <link rel="stylesheet" href="/2048/style.css">
+  <script src="/2048/app.js" defer></script>
   <title>2048</title>
 </head>
 
 <body>
-  <div class="score-container">
-    <div class="score-title">Score</div>
-    <span id="score">0</span>
+  <div class="heading-wrapper">
+    <div class="header-container">
+      <h1 class="title">2048</h1>
+      <p class="heading">Get the 2048 tile to win the game.</p>
+    </div>
+    <div class="score-container">
+      <div class="score-title">Score</div>
+      <span class="score" id="score">0</span>
+    </div>
   </div>
   <div id="result"></div>
   <div class="grid"></div>

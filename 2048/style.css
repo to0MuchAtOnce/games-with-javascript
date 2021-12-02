@@ -1,11 +1,56 @@
 body {
   background: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 16%;
+  left: 17%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 80px;
+}
+
+.heading {
+  position: absolute;
+  top: 32%;
+  left: 17%;
+}
+
+.score-container {
+  position: relative;
+  color: #fff;
+  display: flex;
+  background: rgb(218, 101, 101);
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 55px;
+  top: -10%;
+  right: -100%;
+}
+
+.score-title {
+  font-size: 18px;
+}
+
+.score {
+  font-size: 30px;
 }
 
 .grid {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 410px;
   height: 400px;
   background: #cdcdcd;
 }
@@ -16,7 +61,8 @@ body {
   align-items: center;
   width: 100px;
   height: 100px;
-  background: green;
-  font-size: 60px;
+  background: #c9c9c9;
+  font-size: 40px;
   font-weight: bold;
+  border: 1px solid #000;
 }
